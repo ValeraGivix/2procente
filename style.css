@@ -249,6 +249,46 @@ a:hover {
     gap: 0.25rem;
 }
 
+/* --- Mission Section --- */
+.mission-section {
+    background-color: var(--bg-light);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.mission-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.mission-text p {
+    margin-bottom: 1.5rem;
+}
+
+.mission-text p:last-child {
+    margin-bottom: 0;
+}
+
+.mission-highlight {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 /* --- Impact Section --- */
 .section-header {
     margin-bottom: 3rem;
